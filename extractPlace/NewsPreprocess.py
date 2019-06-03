@@ -349,6 +349,8 @@ def main():
     # 合并模型预测结果
     # 合并中带word_index,sentence_index
     merge_result()
+    print('aaaa')
+
     # print('merge end!')
 
     global global_char_cnt
