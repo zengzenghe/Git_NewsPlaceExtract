@@ -17,7 +17,7 @@ def create_world_city_reg(file_path, min_length):
                 names_dic[l] = name_set
             else:
                 names_dic[l].add(name)
-            print("hello")
+
     # 必须按照key降序
     names_sorted = sorted(names_dic.items(), key=lambda x: x[0], reverse=True)
 
