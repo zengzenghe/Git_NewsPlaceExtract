@@ -86,7 +86,7 @@ with open(place_code_path, 'r', encoding='utf-8') as f:
             city2code[city].append(code)
 
 reg_city2code_place = create_place_reg(city2code, min_length=2)
-
+print(reg_city2code_place)
 # 城市简称 映射 城市全称,一个简称可能对应多个
 standard_place_dic = dict()
 std_place_dic_path = 'conf/standard_place_dic.txt'
